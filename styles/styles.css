@@ -1,0 +1,269 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#E5E5E5;
+}
+
+/* main styles */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+   
+    width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+/* main-content styles */
+.main-content {
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+}
+
+/* about styles */
+.about {
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+/* about_developer */
+.about_developer {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+/* about_name */
+.about_name {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 25px;
+    
+     
+}
+
+/* about_description */
+.about_description {
+color: #595959;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+width: 580px;
+}
+
+/* projects styles */
+.projects {
+    margin-bottom: 50px;
+}
+
+/* Для все сторон в одну строчку-вверх,прав,низ,лево */
+/* margin: 100px 90px 300px 60px; */
+
+/* Для всех сторон отступ */
+/* margin: 50px; */
+
+/* Для комбинированных: вверх+низ, право+лево */
+/* margin: 100px 50px; */
+
+
+.title {
+color: #000000;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+margin-bottom: 10px;
+
+}
+
+/* project_list */
+.project_list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.project_link {
+    margin-left: 10px;
+}
+
+/* project_item */
+.project_item,
+.project_bracket {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* project */
+.project,
+.project_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/* work */
+.work {
+    margin-bottom: 50px;
+}
+
+/* title_work */
+.title_work {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* organization */
+.organization {
+    color: #FB6D3A;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* period */
+.period {
+    color: #A8A8A8;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+/* line */
+.line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+    
+/* work_list */
+.work_list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+/* work_list_item */
+.work_list_item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/* univer */
+.univer {
+    color: #FB6D3A;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* profession */
+.profession {
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* ===============SIDEBAR CODE========================== */
+
+/* sidebar styles */
+.sidebar {
+    background-color:#1E2939;
+    padding-top: 40px;
+    width: 370px;
+    } 
+
+/* photo */
+.photo {
+    width: 370px;
+    margin-bottom: 50px;
+}
+
+/* contacts */
+.contacts, 
+.tech_skills,
+.soft_skills,
+.language_skills {
+     margin-left: 40px;
+}
+
+.contacts ,
+.tech_skills,
+.soft_skills {
+    margin-bottom: 50px;
+}
+
+/* sidebar_title */
+.sidebar_title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+
+}
+
+/* contact_type */
+.contact_type {
+color: #FFFFFF;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+.contact_link {
+color: #e6d9c6;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+
+
+/* skills_list */
+.skills_list {
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 15px;
+}
+
+/* skill_item */
+.skill_item {
+    color: #FB6D3A;
+}
+/* skill_text */
+.skills_text {
+    color: #FFFFFF;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
